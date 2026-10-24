@@ -1,0 +1,5 @@
+# 文本统一换行；LabVIEW 二进制源文件不做文本转换
+* text=auto
+*.md text eol=lf
+*.vi binary
+*.ctl binary

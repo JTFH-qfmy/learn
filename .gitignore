@@ -1,0 +1,22 @@
+# 本机环境与临时文件；科研源文件和小型复现数据按需提交
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+~$*
+
+# 本地凭据
+.env
+.env.*
+!.env.example
+
+# 出现相应项目时使用
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# LabVIEW 本地别名与用户设置；保留 .vi/.ctl/.lvproj/.lvlib 源文件
+*.aliases
+*.lvlps
